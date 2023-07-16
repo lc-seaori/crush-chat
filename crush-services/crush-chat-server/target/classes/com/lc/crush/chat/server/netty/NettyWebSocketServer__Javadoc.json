@@ -1,1 +1,0 @@
-{"doc":" Netty WebSocket服务器\n @author abing\n @date 2023/6/15 16:25\n","fields":[{"name":"bossGroup","doc":" 线程模型\n"}],"enumConstants":[],"methods":[{"name":"start","paramTypes":[],"doc":" 启动 ws server\n\n @return\n @throws InterruptedException\n"},{"name":"destroy","paramTypes":[],"doc":" 销毁\n"}],"constructors":[]}

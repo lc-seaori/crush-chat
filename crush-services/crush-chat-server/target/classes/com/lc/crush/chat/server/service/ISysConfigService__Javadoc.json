@@ -1,1 +1,0 @@
-{"doc":" 参数配置 服务层\n\n @author Lion Li\n","fields":[],"enumConstants":[],"methods":[{"name":"selectConfigById","paramTypes":["java.lang.Long"],"doc":" 查询参数配置信息\n @param configId 参数配置ID\n @return 参数配置信息\n"},{"name":"selectConfigByKey","paramTypes":["java.lang.String"],"doc":" 根据键名查询参数配置信息\n\n @param configKey 参数键名\n @return 参数键值\n"}],"constructors":[]}
