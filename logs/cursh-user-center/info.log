@@ -1,0 +1,32 @@
+2023-07-15 22:03:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-07-15 22:03:02 [main] INFO  c.l.c.uc.CrushUserCenterApplication - Starting CrushUserCenterApplication using Java 17.0.7 with PID 17601 (/Users/lc/Learn/workplaces/crush-chat/crush-services/cursh-user-center/target/classes started by lc in /Users/lc/Learn/workplaces/crush-chat)
+2023-07-15 22:03:02 [main] INFO  c.l.c.uc.CrushUserCenterApplication - The following 1 profile is active: "dev"
+2023-07-15 22:03:02 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=crush-user-center.yml, group=DEFAULT_GROUP] success
+2023-07-15 22:03:02 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=datasource.yml, group=DEFAULT_GROUP] success
+2023-07-15 22:03:02 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=application-common.yml, group=DEFAULT_GROUP] success
+2023-07-15 22:03:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9202"]
+2023-07-15 22:03:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 22:03:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-15 22:03:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 22:03:04 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2023-07-15 22:03:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 22:03:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@c3c63c1
+2023-07-15 22:03:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 22:03:04 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 22:03:04 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2023-07-15 22:03:05 [main] INFO  c.l.c.c.json.config.JacksonConfig - 初始化 jackson 配置
+2023-07-15 22:03:05 [main] INFO  c.l.c.c.r.config.RedisConfiguration - 初始化 redis 配置
+2023-07-15 22:03:05 [main] INFO  org.redisson.Version - Redisson 3.20.1
+2023-07-15 22:03:05 [redisson-netty-2-7] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2023-07-15 22:03:06 [redisson-netty-2-4] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for localhost/127.0.0.1:6379
+2023-07-15 22:03:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9202"]
+2023-07-15 22:03:06 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP crush-user-center 192.168.3.90:9202 register finished
+2023-07-15 22:03:06 [main] INFO  c.l.c.uc.CrushUserCenterApplication - Started CrushUserCenterApplication in 5.564 seconds (process running for 6.04)
+2023-07-15 22:03:06 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=datasource.yml, group=DEFAULT_GROUP
+2023-07-15 22:03:06 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=application-common.yml, group=DEFAULT_GROUP
+2023-07-15 22:03:06 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=crush-user-center.yml, group=DEFAULT_GROUP
+2023-07-15 22:03:07 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 22:03:12 [http-nio-9202-exec-1] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 341 ms
+2023-07-15 22:03:28 [http-nio-9202-exec-2] INFO  c.l.c.uc.controller.UserController - show appid：wx97b307c65b0526c7
+2023-07-15 22:03:29 [http-nio-9202-exec-2] INFO  c.b.w.m.api.impl.BaseWxMaServiceImpl - resultContent: {"access_token":"70_fhkufbLOf4EWIX7WPHbe8UW6OO7QIp0fyeWlYNnriZxSccnhYgZyHo4DaqoEhmzyNk3XWGtXJMt0g-Xx7Ha1710RXEzrT_Y4wVB4DA1WCgrUr_ANVrrj_yoLvYQYVXiAIAIFH","expires_in":7200}
+2023-07-15 22:03:48 [http-nio-9202-exec-3] INFO  c.l.c.uc.controller.UserController - show appid：wx97b307c65b0526c7

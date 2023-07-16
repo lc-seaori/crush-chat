@@ -1,0 +1,14 @@
+com/abing/crush/common/mybatis/core/page/TableDataInfo__Javadoc.json
+com/abing/crush/common/mybatis/core/mapper/BaseMapperPlus__Javadoc.json
+com/abing/crush/common/mybatis/handler/MybatisExceptionHandler__Javadoc.json
+com/abing/crush/common/mybatis/config/MybatisPlusConfiguration__Javadoc.json
+com/abing/crush/common/mybatis/handler/CreateAndUpdateMetaObjectHandler__Javadoc.json
+com/abing/crush/common/mybatis/handler/MybatisExceptionHandler.class
+com/abing/crush/common/mybatis/core/page/TableDataInfo.class
+com/abing/crush/common/mybatis/core/domain/BaseEntity.class
+com/abing/crush/common/mybatis/core/page/PageQuery__Javadoc.json
+com/abing/crush/common/mybatis/handler/CreateAndUpdateMetaObjectHandler.class
+com/abing/crush/common/mybatis/core/mapper/BaseMapperPlus.class
+com/abing/crush/common/mybatis/config/MybatisPlusConfiguration.class
+com/abing/crush/common/mybatis/core/domain/BaseEntity__Javadoc.json
+com/abing/crush/common/mybatis/core/page/PageQuery.class

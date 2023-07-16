@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lc.crush</groupId>
+        <artifactId>crush-chat</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>crush-common</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        crush-common通用模块
+    </description>
+
+    <modules>
+        <module>crush-common-alibaba-bom</module>
+        <module>crush-common-core</module>
+        <module>crush-common-encrypt</module>
+        <module>crush-common-json</module>
+        <module>crush-common-mybatis</module>
+        <module>crush-common-satoken</module>
+        <module>crush-common-redis</module>
+        <module>crush-common-sentinel</module>
+        <module>crush-common-sensitive</module>
+        <module>crush-commom-web</module>
+        <module>crush-common-doc</module>
+        <module>crush-common-security</module>
+        <module>crush-common-skylog</module>
+        <module>crush-common-log</module>
+        <module>crush-common-logstash</module>
+    </modules>
+</project>

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lc.crush</groupId>
+        <artifactId>crush-chat</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>crush-api</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        crush-api系统接口
+    </description>
+    <modules>
+        <module>crush-api-user</module>
+    </modules>
+</project>

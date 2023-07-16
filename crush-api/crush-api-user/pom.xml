@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lc.crush</groupId>
+        <artifactId>crush-api</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>crush-api-user</artifactId>
+    <name>crush-api-user</name>
+
+    <description>
+        crush-api-user系统接口模块
+    </description>
+
+    <dependencies>
+        <!-- Common Core-->
+        <dependency>
+            <groupId>com.lc.crush</groupId>
+            <artifactId>crush-common-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+</project>

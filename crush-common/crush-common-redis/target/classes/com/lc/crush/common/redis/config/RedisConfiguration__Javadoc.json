@@ -1,0 +1,1 @@
+{"doc":" redis配置\n\n @author lc\n","fields":[],"enumConstants":[],"methods":[{"name":"redissonCustomizer","paramTypes":[],"doc":" 另外一种配置方式看：https://blog.csdn.net/quanzhan_King/article/details/130961128\n @return\n"},{"name":"cacheManager","paramTypes":[],"doc":" 自定义缓存管理器 整合spring-cache\n"}],"constructors":[]}

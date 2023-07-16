@@ -1,0 +1,1 @@
+{"doc":" 校验框架配置类\n @author lc\n @date 2023/6/2 18:10\n","fields":[],"enumConstants":[],"methods":[{"name":"validator","paramTypes":[],"doc":" 配置校验框架 快速返回模式\n"}],"constructors":[]}

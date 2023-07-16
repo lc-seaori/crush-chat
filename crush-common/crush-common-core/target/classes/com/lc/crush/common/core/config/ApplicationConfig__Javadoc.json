@@ -1,0 +1,1 @@
+{"doc":" 程序注解配置\n @EnableAspectJAutoProxy 表示通过aop框架暴露该代理对象,AopContext能够访问\n @author lc\n @date 2023/6/2 18:10\n","fields":[],"enumConstants":[],"methods":[],"constructors":[]}

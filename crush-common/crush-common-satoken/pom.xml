@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lc.crush</groupId>
+        <artifactId>crush-common</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>crush-common-satoken</artifactId>
+
+    <description>
+        crush-common-satoken
+    </description>
+
+    <dependencies>
+        <!-- Sa-Token 权限认证（core核心包）, 在线文档：http://sa-token.dev33.cn/ -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-core</artifactId>
+        </dependency>
+
+        <!-- Sa-Token 整合 jwt -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-jwt</artifactId>
+            <version>${satoken.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>cn.hutool</groupId>
+                    <artifactId>hutool-all</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-jwt</artifactId>
+        </dependency>
+
+        <!-- Api User -->
+        <dependency>
+            <groupId>com.lc.crush</groupId>
+            <artifactId>crush-api-user</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- lc Common Redis-->
+        <dependency>
+            <groupId>com.lc.crush</groupId>
+            <artifactId>crush-common-redis</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+</project>

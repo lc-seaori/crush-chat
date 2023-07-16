@@ -1,0 +1,1 @@
+1689429787736|5|statement|connection 1|url jdbc:mysql://localhost:3306/crush-cloud?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true|SELECT 1|SELECT 1

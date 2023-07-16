@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lc.crush</groupId>
+        <artifactId>crush-common</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>crush-common-security</artifactId>
+
+    <description>
+        crush-common-security 安全模块
+    </description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.lc.crush</groupId>
+            <artifactId>crush-common-satoken</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- Sa-Token 权限认证, 在线文档：http://sa-token.dev33.cn/ -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot3-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>
