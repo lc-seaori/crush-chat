@@ -4,7 +4,9 @@ import com.lc.crush.common.encrypt.enumd.AlgorithmType;
 import com.lc.crush.common.encrypt.enumd.EncodeType;
 
 /**
- * 加解者
+ * 加解密接口
+ * @author lc
+ * @date 2023/7/21 20:47
  */
 public interface IEncryptor {
 
