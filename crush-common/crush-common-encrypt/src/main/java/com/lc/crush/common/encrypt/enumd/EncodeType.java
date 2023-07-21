@@ -1,7 +1,9 @@
 package com.lc.crush.common.encrypt.enumd;
 
 /**
- * 编码类型
+ * 编码类型枚举
+ * @author lc
+ * @date 2023/7/21 20:53
  */
 public enum EncodeType {
 

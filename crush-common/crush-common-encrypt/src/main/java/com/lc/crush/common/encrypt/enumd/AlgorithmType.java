@@ -5,7 +5,9 @@ import lombok.Getter;
 import com.lc.crush.common.encrypt.core.encryptor.*;
 
 /**
- * 算法名称
+ * 算法枚举
+ * @author lc
+ * @date 2023/7/21 20:53
  */
 @Getter
 @AllArgsConstructor
