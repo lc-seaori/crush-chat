@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 
 /**
  * 数据脱敏注解
- *
+ * @JacksonAnnotationsInside 自定义json注解
  * @author lc
  */
 @Retention(RetentionPolicy.RUNTIME)

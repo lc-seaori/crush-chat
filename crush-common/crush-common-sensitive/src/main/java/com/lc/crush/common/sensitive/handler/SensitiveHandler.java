@@ -19,7 +19,9 @@ import java.util.Objects;
 
 /**
  * 数据脱敏json序列化工具
- *
+ * JsonSerializer:自定义json序列化
+ * ContextualSerializer:JsonSerializer可以实现的附加接口，用于获取回调，该回调可用于创建序列化程序的上下文实例，以用于
+ * 处理受支持该类型的属性
  * @author lc
  */
 @Slf4j
