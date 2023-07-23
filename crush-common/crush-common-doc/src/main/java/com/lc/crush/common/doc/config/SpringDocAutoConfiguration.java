@@ -31,7 +31,7 @@ import java.util.Set;
 
 /**
  * Swagger 文档配置
- *
+ * 通过注释生成文档，不需要写注解
  * @author lc
  */
 @RequiredArgsConstructor
